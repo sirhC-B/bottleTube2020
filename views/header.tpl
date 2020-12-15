@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="icon" type="image/vnd.microsoft.icon" href="...">
+    <link rel="icon" type="https://cdn3.iconfinder.com/data/icons/christmas-cheer/128/penguin-512.png" href="...">
 
     <title>{{title}}</title>
 </head>
 <body>
-<img src="https://bottletube.s3.amazonaws.com/static/banner.png" class="img-fluid rounded" alt="BottleTube">
+<img src="https://s3.amazonaws.com/gcc.chris-boesener.de/bottletube/source/banner.png" class="img-fluid rounded" alt="BottleTube">
 
 <h1>{{title}}</h1>
