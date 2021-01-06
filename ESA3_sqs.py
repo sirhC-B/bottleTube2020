@@ -8,7 +8,7 @@ r = sqs.send_message(
     QueueUrl='https://sqs.us-east-1.amazonaws.com/790933937313/xmas2020',
     MessageAttributes={
     'MatNr':{ 'DataType': 'Number',
-            'StringValue': '20211774',
+            'StringValue': '***',
             },
     'StudentName':{ 'DataType': 'String',
                     'StringValue': 'Chris Boesener',
@@ -19,7 +19,7 @@ r = sqs.send_message(
     'ReplyUrl':{ 'DataType': 'String',
                  'StringValue': 'https://sqs.us-east-1.amazonaws.com/272763356340/testQueue',
             },},
-    MessageBody=('ESA3 - SQS \n\n MatNr: 20211774 \n StudentName: Chris Boesener \n Email-Adresse: boesener@th-brandenburg.de \n ReplyUrl: https://sqs.us-east-1.amazonaws.com/272763356340/testQueue \n\n Gesundes neues Jahr! ')
+    MessageBody=('ESA3 - SQS \n\n MatNr: *** \n StudentName: Chris Boesener \n Email-Adresse: boesener@th-brandenburg.de \n ReplyUrl: https://sqs.us-east-1.amazonaws.com/272763356340/testQueue \n\n Gesundes neues Jahr! ')
     )
 
 print (r)
